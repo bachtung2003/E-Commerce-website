@@ -1,0 +1,36 @@
+.footer{
+    padding: 56px 60px 32px;
+    width: 100%;
+}
+.footer-nav{
+    display: flex;
+}
+.footer .footer-section {
+    max-width: 303px;
+    width: 100%;
+}
+.footer-section-title{
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 16px;
+    cursor: default;
+    font-family: 'Inter';
+}
+.footer-item{
+    padding: 3px 0 4px;
+}
+.footer-item a{
+    color: #858585;
+    padding: 0;
+    font-size: 14px;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 0 0;
+    font-size: 15px;
+}
+.copyright p{
+    font-family: Kannada;
+    font-size: 15px;
+}

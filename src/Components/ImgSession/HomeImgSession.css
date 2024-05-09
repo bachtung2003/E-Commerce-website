@@ -1,0 +1,59 @@
+.home-session .main-wrapper{
+    position: relative;
+}
+.home-session .main-wrapper #main-banner-1{
+    height: 960px;
+    display: block;
+    background-image: url(../Assets/img/glass-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+}
+
+.home-session .main-wrapper #main-banner-2{
+    height: 960px;
+    display: block;
+    background-image: url(../Assets/img/glass-2.jpeg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.home-session .main-wrapper #main-banner-3{
+    height: 960px;
+    display: block;
+    background-image: url(../Assets/img/glass-3.jpeg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.home-session .main-wrapper .text-area {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.main-wrapper .text-area {
+    padding-bottom: 140px;
+}
+
+.home-session .main-wrapper .text-area h1{
+    font-family: Kannada;
+    font-weight: 100;
+    font-size: 32px;
+}
+
+.home-session .main-wrapper .text-area a{
+    text-decoration: underline;
+    color: inherit;
+    font-family: Kannada;
+    font-size: 24px;
+    font-weight: 50;
+}

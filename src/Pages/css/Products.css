@@ -1,0 +1,127 @@
+
+.products{
+    margin-top: 90px;
+  max-width: var(--max-width);
+  padding: 20px 30px;
+  margin-bottom: 60px;
+  font-family: sans-serif;
+box-sizing: border-box;
+}
+
+.products h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #232323;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.products p{
+    margin-top: 5px;
+    color: #8a8a8a;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.products .container{
+    max-width: 100%;
+    display: grid;
+    margin-top: 20px;
+    justify-content: center;
+    grid-template-columns: 20% 65%;
+    gap: 2rem;
+}
+
+.products .container .left-box{
+    width: 25%;
+}
+
+.products .container .left-box .category{
+    border: 3px solid #f6f6f6;
+    width: 250px;
+
+}
+
+.products .container .left-box .category .header{
+    max-width: 100%;
+    padding: 10px 20px;
+    background: #f6f6f6;
+}
+
+.products .container .left-box .category .header h3{
+    font-size: 16px;
+    color: #232323;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.products .container .left-box .category .box{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.products .container .left-box .category .box ul{
+    max-width: 100%;
+}
+
+.products .container .left-box .category .box ul li{
+    list-style: none;
+    margin-left: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8a8a8a;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.products .container .left-box .category .box ul li:hover{
+    color: #232323;
+}
+
+.products .container .left-box .banner{
+    margin-top: 20px;
+    width: 250px;
+}
+
+.products .container .left-box .banner .img-box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.products .container .right-box .shop-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products .container .right-box .shop-title #prod-view-mode-board{
+    gap: 5px;
+    margin-top: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.products .container .right-box .shop-title img{
+    height: 15px;
+    width: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.products .container .right-box .shop-title .gridActive .grid img{
+    padding: 1px;
+    border: 1px solid;
+}
+
+.products .container .right-box .shop-title .listActive .list img{
+    padding: 1px;
+    border: 1px solid;
+}
+
+
+
+
