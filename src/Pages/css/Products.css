@@ -29,11 +29,11 @@ box-sizing: border-box;
     margin-top: 20px;
     justify-content: center;
     grid-template-columns: 20% 65%;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .products .container .left-box{
-    width: 25%;
+    width: 100%;
 }
 
 .products .container .left-box .category{

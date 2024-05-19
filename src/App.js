@@ -7,6 +7,7 @@ import Products from "./Pages/Products";
 import Stores from "./Pages/Stores";
 import Services from "./Pages/Services";
 import Footer from "./Components/Footer/Footer";
+import SingleProduct from "./Pages/SingleProduct";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/products' element={<Products/>}/>
           <Route path='/stores' element={<Stores/>} />
           <Route path='/services' element={<Services/>} />
+          <Route path="products/:id" element={<SingleProduct/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
