@@ -24,9 +24,7 @@ const ProductCards = ({ gridList, products }) => {
               </div>
             </div>
           </div>
-          <div className="product-list-item">
-            
-          </div>
+          <div className="product-list-item"></div>
         </div>
       ))}
     </div>

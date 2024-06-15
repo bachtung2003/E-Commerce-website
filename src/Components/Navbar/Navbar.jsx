@@ -79,7 +79,7 @@ const Navbar = () => {
     };
     return (
       <li className="dropdownItem" onClick={handleItemClick}>
-        <a> {props.text}</a>
+        <span> {props.text}</span>
       </li>
     );
   }

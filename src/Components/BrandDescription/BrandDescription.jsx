@@ -1,6 +1,6 @@
 import React from "react";
-import './BrandDescription.css';
-import img from '../Assets/img/glass-4.jpeg';
+import "./BrandDescription.css";
+import img from "../Assets/img/glass-4.jpeg";
 
 const BrandDescription = () => {
   return (

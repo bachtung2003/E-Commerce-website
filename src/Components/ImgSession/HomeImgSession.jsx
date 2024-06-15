@@ -9,7 +9,7 @@ const ImgSession = () => {
           <div id="main-banner-1"></div>
           <div className="text-area">
             <h1>2024 COLLECTION</h1>
-            <a href="#">Shop now</a>
+            <a href="/products">Shop now</a>
           </div>
         </article>
       </section>
@@ -18,7 +18,7 @@ const ImgSession = () => {
           <div id="main-banner-2"></div>
           <div className="text-area">
             <h1>2024 COLLECTION</h1>
-            <a href="#">Shop now</a>
+            <a href="/products">Shop now</a>
           </div>
         </article>
       </section>
@@ -27,7 +27,7 @@ const ImgSession = () => {
           <div id="main-banner-3"></div>
           <div className="text-area">
             <h1>2024 COLLECTION</h1>
-            <a href="#">Shop now</a>
+            <a href="/products">Shop now</a>
           </div>
         </article>
       </section>

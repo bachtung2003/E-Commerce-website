@@ -45,7 +45,9 @@ const Footer = () => {
           <div className="footer-group">
             <ul className="footer-items">
               <li className="footer-item">
-                <a href="https://www.facebook.com/profile.php?id=100011546441626">Facebook</a>
+                <a href="https://www.facebook.com/profile.php?id=100011546441626">
+                  Facebook
+                </a>
               </li>
               <li className="footer-item">
                 <a href="https://www.instagram.com/_toppermost_">Instagram</a>

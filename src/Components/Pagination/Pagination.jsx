@@ -13,15 +13,18 @@ const Pagination = ({
   }
   return (
     <ul className="default-pagination lab-ul">
-        <li>
-            <a href="#" onClick={() => {
-                if(activePage <= pageNumbers.length && activePage>1){
-                    paginate(activePage - 1)
-                }
-            }}>
-                <i className="icofont-rounded-left"></i>
-            </a>
-        </li>
+      <li>
+        <a
+          href="#"
+          onClick={() => {
+            if (activePage <= pageNumbers.length && activePage > 1) {
+              paginate(activePage - 1);
+            }
+          }}
+        >
+          <i className="icofont-rounded-left"></i>
+        </a>
+      </li>
       {pageNumbers.map((number) => (
         <li
           key={number}
@@ -31,14 +34,17 @@ const Pagination = ({
         </li>
       ))}
       <li>
-            <a href="#" onClick={() => {
-                if(activePage < pageNumbers.length){
-                    paginate(activePage + 1)
-                }
-            }}>
-                <i className="icofont-rounded-right"></i>
-            </a>
-        </li>
+        <a
+          href="#"
+          onClick={() => {
+            if (activePage < pageNumbers.length) {
+              paginate(activePage + 1);
+            }
+          }}
+        >
+          <i className="icofont-rounded-right"></i>
+        </a>
+      </li>
     </ul>
   );
 };
