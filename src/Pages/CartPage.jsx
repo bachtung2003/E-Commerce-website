@@ -37,6 +37,14 @@ const CartPage = () => {
     localStorage.setItem("cart", JSON.stringify(cart));
   };
 
+  // cart subtotal
+  const cartSubtotal = cartItems.reduce((total, item) => {
+    return total + calculateTotalPrice(item);
+  }, 0);
+
+  // order total
+  const orderTotal = cartSubtotal;
+
   return <div>CartPage</div>;
 };
 
